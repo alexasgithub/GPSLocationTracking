@@ -57,9 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
                 locationTrack = new LocationTrack(MainActivity.this);
 
-
                 if (locationTrack.canGetLocation()) {
-
 
                     double longitude = locationTrack.getLongitude();
                     double latitude = locationTrack.getLatitude();
